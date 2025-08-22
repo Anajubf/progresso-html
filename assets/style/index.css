@@ -45,10 +45,18 @@ h2 {
     align-items: center;
 }
 
-justify-center {
+.justify-center {
     justify-content: center;
 }
 
-.flex-end {
-    justify-content: center;
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-cloumn {
+    flex-direction: column;
 }
