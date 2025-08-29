@@ -1,0 +1,8 @@
+.quadrado {
+    width: 20%;
+    height: 170px;
+    background-color: rgb(55, 8, 99);
+    margin: 0 auto 20px;
+    margin-top: 60px;
+    align-items: center;
+}
