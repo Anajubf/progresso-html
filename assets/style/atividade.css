@@ -1,9 +1,15 @@
 .circulo {
-    height: 100vh;
+    height: 600px;
+    width: 250px;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-direction: column;
+    border-radius: 50px;
+    margin: 200px auto 300px;
+
 }
 
 .c1 {
@@ -11,6 +17,7 @@
     height: 150px;
     background-color: rgb(218, 9, 9);
     border-radius: 100px;
+    box-shadow: 0 4px 20px rgb(218, 9, 9);
 }
 
 .c2 {
@@ -18,6 +25,7 @@
     height: 150px;
     background-color: rgb(238, 218, 42);
     border-radius: 100px;
+    box-shadow: 0 4px 20px rgb(238, 218, 42);
 }
 
 .c3 {
@@ -25,8 +33,5 @@
     height: 150px;
     background-color: rgb(39, 180, 27);
     border-radius: 100px;
-}
-
-.flex-column {
-    flex-direction: column;
+    box-shadow: 0 4px 30px rgb(39, 180, 27);
 }
