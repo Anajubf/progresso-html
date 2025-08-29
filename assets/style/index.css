@@ -57,6 +57,6 @@ h2 {
     justify-content: space-between;
 }
 
-.flex-cloumn {
+.flex-column {
     flex-direction: column;
 }
